@@ -1,0 +1,135 @@
+/* Header */
+header{
+    position: sticky;
+    top:0;
+    margin: 0 auto;
+    background-color: #fff;
+
+    > .ribbon{       
+
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        
+        width: 80%;
+        height: 80px;
+        margin: 0 auto;
+
+        > nav{
+            display: flex;
+            align-items: center;
+            > ul{            
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: flex-start;
+                align-items: center;
+    
+                padding: 0;
+    
+                > li{
+                    padding: 5px 5px;
+                    margin-right: 5px;              
+                    list-style-type: none;
+                }
+            }
+        }
+        /* Will be different from above one */
+        > ul{            
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            align-items: center;
+
+            padding: 0;
+
+            > li{
+                padding: 5px 5px;
+                margin-right: 5px;              
+                list-style-type: none;
+            }
+        }
+        
+        > .logo{
+            background-repeat: no-repeat;
+            display: flex;        
+            width: 100px;
+            height: 100px;
+            background-image: url(./img/logo.png);
+        }
+    }    
+}
+/* --Header-- */
+
+/* Body */
+/* css reset */
+
+body{    
+    margin: 0 auto;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+section{    
+    border: 1px solid black;
+    min-height: 800px;
+    max-width: 80%;    
+    margin: 0 auto;
+}
+
+/* --css reset-- */
+/* --Body-- */
+
+/* Footer */
+footer{
+    background-color: aquamarine;
+    margin: 0 auto;
+
+    > .ribbon{        
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        
+        width: 80%;        
+        margin: 0 auto;
+
+        > .official-info{
+            > p{
+                font-size: 10pt;
+            }
+        }
+
+        > .contact-us{
+            /* Socials circular logos */
+            > ul{            
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: flex-start;
+                align-items: center;
+
+                padding: 0;
+
+                > li{
+                    padding: 5px 5px;
+                    margin-right: 5px;              
+                    list-style-type: none;
+                }
+        }
+        }
+    }
+}
+/* --Footer-- */
